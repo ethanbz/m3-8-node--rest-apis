@@ -17,3 +17,15 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+| endpoint | method | Description            |
+| -------- | ------ | ---------------------- |
+| `/stock`  | `GET`  | get stock |
+  `/stock/:item`    `PUT`    update item
+  /stock       POST    add new item
+
+  `/customers`  `GET`  get customers
+  `/customers`  `PUT`  update customers
+  
+  `/seating`   `GET`   get seating
+  `/seating`   `PUT`   update seating
